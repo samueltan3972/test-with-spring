@@ -1,6 +1,7 @@
 ### Run
 
 Clone the project and open with cmd
+
 `mvnw spring-boot:run`
 
 ### Docker
