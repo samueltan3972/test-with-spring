@@ -1,14 +1,15 @@
 ### Run
 
-mvnw spring-boot:run
+Clone the project and open with cmd
+`mvnw spring-boot:run`
 
 ### Docker
 
-mvnw package
+`mvnw package`
 
-docker build -t seanhao1233/test-with-spring .
+`docker build -t seanhao1233/test-with-spring .`
 
-docker run -p 8080:8080 seanhao1233/test-with-spring
+`docker run -p 8080:8080 seanhao1233/test-with-spring`
 
 ### View Result
 
