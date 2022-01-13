@@ -5,6 +5,8 @@ This Spring Boot project is used for basic framework review with performance ana
 ## Run
 
 Clone the project and open with cmd
+
+Make sure JDK 11 is installed
 ```
 mvnw spring-boot:run
 ```
