@@ -1,20 +1,22 @@
-# Test with spring boot
+# Test with Spring Boot
 
 This Spring Boot project is used for basic framework review with performance analysis that can be used as reference to decide on the framework to use in microservices. To know more information, visit [Performance Result](https://github.com/samueltan3972/framework-review)
 
 ## Run
 
 Clone the project and open with cmd
-
-`mvnw spring-boot:run`
+```
+mvnw spring-boot:run
+```
 
 ## Docker
+```
+mvnw package
 
-`mvnw package`
+docker build -t seanhao1233/test-with-spring .
 
-`docker build -t seanhao1233/test-with-spring .`
-
-`docker run -p 8080:8080 seanhao1233/test-with-spring`
+docker run -p 8080:8080 seanhao1233/test-with-spring
+```
 
 ## View Result
 
