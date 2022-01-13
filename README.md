@@ -1,10 +1,14 @@
-### Run
+# Test with spring boot
+
+This Spring Boot project is used for basic framework review with performance analysis that can be used as reference to decide on the framework to use in microservices. To know more information, visit [Performance Result](https://github.com/samueltan3972/framework-review)
+
+## Run
 
 Clone the project and open with cmd
 
 `mvnw spring-boot:run`
 
-### Docker
+## Docker
 
 `mvnw package`
 
@@ -12,10 +16,10 @@ Clone the project and open with cmd
 
 `docker run -p 8080:8080 seanhao1233/test-with-spring`
 
-### View Result
+## View Result
 
-view the result at http://localhost:8080
-it comes with 3 api end point
+View the result at http://localhost:8080
+it comes with 3 API end point
 - /hello : return a simple hello world message
 - /database : perform all database CRUD operation
 - /fibonacci : compute and return first 5,000 fibonacci numbers
